@@ -20,3 +20,7 @@ Now, bundle and watch the source files using following command
 Open chrome and load the `dist/index.html`. It should properly show that the jquery is workign as expected. Nothing much to see there.
 
 To **really** verify it works : Make note of the file modified/created timestamps of bundled output files under `dist` folder. Let few seconds pass by. Go ahead and edit the `src/app.js`. Any change will do. Webpack will detect the change and bundle the main.js file alone. You can verify that by making sure that the `dist/manifest.js` and `dist/vendor.js` are with old timestamp.
+
+Note : Just to make sure, refresh the page in chrome and see the changes reflecting.
+
+Happy webpacking!
