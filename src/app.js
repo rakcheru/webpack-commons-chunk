@@ -1,0 +1,1 @@
+jquery(document).ready(function() { jquery('#header').html('loaded by jQuery!!!11'); });
